@@ -7,10 +7,16 @@ body {
     justify-content: space-between;
 }
 
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 28px;
+}
+
 .header {
     display: flex;
     align-items: center;
-    background-color: azure;
+    background-color: #1F2937;
     justify-content: space-between;
     padding: 0 10%;
 }
@@ -18,12 +24,17 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
+.img_1 {
+    max-width: auto;
+    max-height: 600px;
+}
+
+.img_2 {
+    max-height: 300px;
+    max-width: auto;
 }
 
 .image_container {
@@ -31,64 +42,193 @@ img {
     justify-content: center;
     align-items: center;
     width: 800px;
-    height: 500px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
-.image_container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
     height: 400px;
     overflow: hidden;
     flex-shrink: 0;
+    border-radius: 20px;
 }
+
+.imagespec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    margin: 0 0 20px;
+
+}
+
 
 .footer {
     display: flex;
-
-    align-items: end;
+    height: 70px;
+    align-items: center;
     justify-content: center;
-    background-color: azure;
+    background-color: #1F2937;
+    color: #E5E7EB;
 
 }
 
 .body1 {
     display: flex;
-    padding: 0 10%;
+    padding: 100px 10%;
     gap: 10%;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 0;
+    background-color: #1F2937;
 }
 
 .body2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 10% 100px;
 
+}
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30%;
+    background-color: #E5E7EB;
+}
+
+.body4 {
+    display: flex;
+    flex: 1;
+    padding: 80px 10%;
+    justify-content: center;
+}
+
+.body4cont {
+    display: flex;
+    background-color: #3882F6;
+    gap: 100px;
+    justify-content: center;
+    padding: 0 10%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.body4text {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    color: #E5E7EB;
+
+}
+
+.body4button {
+    display: flex;
+    align-items: center;
+}
+
+
+.michael {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
 }
 
 .tcontent {
     display: flex;
     flex: 1;
-    gap: 2%;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.img2 {
-    border: 5px solid lightblue;
-    width: 400px;
-    height: 300px;
-    background-size: cover;
-    border-radius: 25px;
 
-}
 
 .cont {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+}
+
+
+.body1text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 10px 0;
+}
+
+.body1text2 {
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 40px;
+    color: #E5E7EB;
+}
+
+.body2text1 {
+    font-size: 48px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.body3text3 {
+    font-size: 38px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.body4text1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0 0 5px;
+}
+
+.myButton {
+    margin-top: 20px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #528ecc;
+}
+
+.myButton:hover {
+    background-color: #378de5;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.body4button .myButton {
+    border: 3px solid white;
+    margin-top: 20px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #528ecc;
 }
